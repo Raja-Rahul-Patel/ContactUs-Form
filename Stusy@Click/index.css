@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    background-color: rgb(204, 158, 247);
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+
+}
+.main{
+    display: flex;
+    justify-content:space-around;
+    width: 94vw;
+    height: 95vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    background-color: rgb(3, 3, 52);    
+    border: 1px solid rgb(3, 3, 52);
+    border-radius: 0.5rem;
+    
+}
+.heading{
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+.para{
+    color: white;
+    padding-top: 25px;
+    margin-left: 20px;
+}
+
+.card{
+    margin-top: 100px;
+    background-color: white;
+    width: 280px;
+    height: 350px;
+    border: 1px white;
+    border-radius: 0.5rem;
+
+}
+.discription{
+    display: flex;
+    flex-direction:column;
+   
+  
+}
+.icon-icons{
+    display: flex;
+    flex-direction: column;
+    
+}
+#icon1{
+    margin: 20px;
+}
+#icon2{
+    margin: 20px;
+}
+#icon3{
+    margin: 20px;
+}
+#dis-input{
+    background-color: rgb(3, 3, 52);
+    border: none;
+}
+#dis-input:hover{
+    border: 1px solid blue;
+    border-radius: 0.5rem;
+}
+.icons{
+    color: blanchedalmond;
+    margin-left: 20px;
+    
+}
+
+.icon-btn{
+      color: aqua;
+      margin-left: 20px;
+}
+i:hover{
+       border: 2px solid blueviolet;
+}
+
+#input-input{
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    margin: 10px;
+    gap:0.5rem;
+    margin-bottom: 30px;
+}
+
+.btn-msg{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 1rem;
+  
+   
+}
+#btn-main{
+    background-color: blue;
+}
+#btn-main:hover{
+    background-color: red;
+    border: 1px solid black;
+
+}
+
